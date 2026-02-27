@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "checkJs": true,
-    "strict": true,
+    "jsx": "react-jsx",
+    "checkJs": true, 
+    "lib": ["dom", "esnext"],
     "paths": {
       "@/*": ["./*"]
     }
