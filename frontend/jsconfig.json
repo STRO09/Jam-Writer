@@ -3,8 +3,9 @@
     "jsx": "react-jsx",
     "checkJs": true, 
     "lib": ["dom", "esnext"],
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["*"]
     }
   }
 }
