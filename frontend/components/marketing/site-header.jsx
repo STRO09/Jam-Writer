@@ -1,10 +1,15 @@
 import { Music } from "lucide-react";
+import Switch from "../ui/themeSwitch";
 
 export default function SiteHeader() {
   return (
     <header className="fixed top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-md">
       <nav className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6">
-        <a href="/" className="flex items-center gap-2" aria-label="JamWrite home">
+        <a
+          href="/"
+          className="flex items-center gap-2"
+          aria-label="JamWrite home"
+        >
           <Music className="h-5 w-5 text-primary" />
           <span className="text-base font-bold text-foreground">JamWrite</span>
         </a>
@@ -28,6 +33,7 @@ export default function SiteHeader() {
             Get Started
           </a>
         </div>
+        <Switch/>
       </nav>
     </header>
   );
